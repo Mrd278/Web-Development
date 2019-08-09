@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Basic Calculator</title>
+	<link rel="stylesheet" type="text/css" href="cal.css">
+</head>
+<body>
+	<script type="text/javascript">
+		var audio1 = new Audio('beep1.mp3');
+		var audio2 = new Audio('beep2.mp3'); 
+		function sound(k)
+		{
+			if(k=='')
+			{
+				audio2.play();
+				calci.cl.value=eval(calci.cl.value);
+			}
+			else if(k=='ac')
+			{	
+				audio2.play();
+				calci.cl.value='';
+			}
+			else
+			{
+			    audio1.play();
+			    calci.cl.value+=k;
+	        }	
+		}
+	</script>
+	<h1>CALCULATOR</h1>
+	<div class="formstyle">
+	<fieldset id="formstyle">
+		<form name="calci">
+		<input type="text" name="cl" id="cl1" value=''><br>
+		<input type="button" value="1" id="butdg"onclick="sound(1)">
+		<input type="button" value="2" id="butdg" onclick="sound(2)">
+		<input type="button" value="3" id="butdg" onclick="sound(3)">
+		<input type="button" value="+" onclick="sound('+')"><br>
+		<input type="button" value="4" id="butdg" onclick="sound(4)">
+		<input type="button" value="5" id="butdg" onclick="sound(5)">
+		<input type="button" value="6" id="butdg" onclick="sound(6)">
+		<input type="button" value="-" onclick="sound('-')"><br>
+		<input type="button" value="7" id="butdg" onclick="sound(7)">
+		<input type="button" value="8" id="butdg" onclick="sound(8)">
+        <input type="button" value="9" id="butdg" onclick="sound(9)">
+		<input type="button" value="/" onclick="sound('/')"><br>
+		<input type="button" value="0" id="butdg" onclick="sound('0')">
+		<input type="button" value="*" onclick="sound('*')">
+		<input type="button" value="=" onclick="sound('')">
+		<input type="button" name="clear" value="AC" onclick="sound('ac')">
+		</form>
+	</fieldset>
+	</div>
+	<footer>Made by-<b>MRIDUL GUPTA</b></footer>
+</body>
+</html>

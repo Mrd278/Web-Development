@@ -1,0 +1,54 @@
+h1{
+	border: 7px solid;
+	color: rgba(0, 0, 0, 1);
+	border-color: blue;
+	text-align: center;
+	background-color: rgba(122, 255, 242, 1);
+	-webkit-transition:color ease-in 0.4s;
+}
+h1:hover{
+	color: rgba(5, 97, 255, 1);
+}
+#formstyle{
+	display: flex;
+	margin:0 auto;
+	height: 260px;
+	width: 100px;
+	background-color: blue;
+	border-radius: 15px;
+}
+input[type="text"]{
+	border: 4px solid black;
+	width: 190px;
+	height:50px;
+	font-size: 25px;
+	background-color: rgba(249, 255, 143, 1);
+}
+input[type="button"]{
+	border: 4px solid black;
+	width: 45px;
+	height: 50px;
+	background-color: rgba(26, 236, 255, 1);
+	font-size: 15px;
+	font-weight: bold;
+	-webkit-transition:background-color ease-in 0.4s;
+}
+input[type="button"]:hover{
+	color: red;
+  }
+body{
+	background-color: rgba(107, 107, 255, 1);
+}
+#butdg{
+	background-color: rgba(249, 205, 205, 1);
+}
+input[name="clear"]{
+	background-color: orange;
+}
+footer{
+	color: rgba(0, 0, 0, 1);
+	-webkit-transition:color ease-in 0.4s;
+}
+footer:hover{
+	color: rgba(0, 0, 255, 1);
+}
