@@ -1,0 +1,37 @@
+body{
+	background-image: url("https://images.pexels.com/photos/132197/pexels-photo-132197.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+}
+#p1{
+	border: 1.5px black;
+	border-style: dashed;
+	background-color: #7955487d;
+	width: 240px;
+    height: 29px;
+}
+h2{
+	color: #612a16;
+}
+#li1{
+	border-style: inset;
+    width: 160px;
+    border-color:#a05656;
+}
+li a{
+	color: blue;
+}
+textarea{
+	background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTptDddyBZG4i4cycd6ZIBP2wT8PQKhihUqenZF7GpzlvTZuPghGQ);
+	font-size: 17px;
+	font-weight: bolder;
+	color: cyan;
+}
+#p2{
+	color:#710000;
+	font-size: 20px;
+}
+div{
+	background-color: #772b2b3d;
+}
+h1{
+	text-align: center;
+}

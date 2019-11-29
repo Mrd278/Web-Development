@@ -1,0 +1,50 @@
+thead{
+	color:black;
+	background-color: cyan;
+}
+td,input[type="text"]{
+	color: red;
+	background-color: pink;
+}
+table{
+	text-align: center;
+	margin: auto;
+}
+h1,h2{
+	border: 0px black solid;
+	text-align: center;
+	color: orange;
+}
+label{
+	color:yellow;
+	font-weight: bold;
+}
+form{
+	border: 0px solid black;
+	margin: auto;
+	text-align: center;
+}
+input[type="submit"]{
+	color:black;
+	font-weight: bold;
+}
+input[type="submit"]:hover{
+	background-color:cyan; 
+}
+select:hover{
+	background-color:cyan;
+}
+body{
+	size: 900px;
+	background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTptDddyBZG4i4cycd6ZIBP2wT8PQKhihUqenZF7GpzlvTZuPghGQ);
+    background-repeat:repeat;
+}
+textarea{
+	font-size: 18px;
+	color:black;
+	font-weight: bolder;
+	background-image: url("https://images.pexels.com/photos/132197/pexels-photo-132197.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+}
+label{
+	font-size: 20px;
+}

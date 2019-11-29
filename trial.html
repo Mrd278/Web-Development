@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tables</title>
+	<link rel="stylesheet" type="text/css" href="trial.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+	<div class="container">
+		<h1>Tables In Html</h1>
+<table border="1" class="table table-striped">
+	<thead>
+		<th>Name</th>
+		<th>Father name</th>
+		<th>Marks</th>
+		<th>Roll No</th>
+		<th>Email Id</th>
+	</thead>
+	<tr>
+		<td>Mridul Gupta</td>
+		<td>Manoj Gupta</td>
+		<td>93</td>
+		<td>19</td>
+		<td>mridul27gupta@gmail.com</td>
+	</tr>
+	<tr>
+		<td>Mayank Gupta</td>
+		<td>Manoj Gupta</td>
+		<td>92</td>
+		<td>21</td>
+		<td>mynk333@gmail.com</td>
+	</tr>
+</table>
+<h1 id="heading2">Top 3 GDP Figures</h1>
+<table border="1" class="table table-striped">
+	<thead>
+		<th>Position</th>
+		<th>Country Name</th>
+		<th>Flag</th>
+		<th>GDP(lakh crores USD)</th>
+		<th>Current Year</th>
+	</thead>
+	<tr>
+		<td>1st</td>
+		<td>United Kingdom</td>
+		<td><img src="https://upload.wikimedia.org/wikipedia/en/thumb/a/ae/Flag_of_the_United_Kingdom.svg/1280px-Flag_of_the_United_Kingdom.svg.png" width=120 height=80 alt="UK Flag"></td>
+		<td>2.62</td>
+		<td>2019</td>
+	</tr>
+	<tr>
+		<td>2nd</td>
+		<td>India</td>
+		<td><img src="https://upload.wikimedia.org/wikipedia/en/thumb/4/41/Flag_of_India.svg/1200px-Flag_of_India.svg.png" alt="Indian Flag" width=120 height=80></td>
+		<td>2.6</td>
+		<td>2019</td>
+	</tr>
+	<tr>
+		<td>3rd</td>
+		<td>Russia</td>
+		<td><img src="https://upload.wikimedia.org/wikipedia/en/archive/f/f3/20120812153730%21Flag_of_Russia.svg" width=120 height=80 alt="Russian Flag"></td>
+		<td>1.58</td>
+		<td>2019</td>
+	</tr>
+</table>
+	</div>
+
+<form method="get">
+	<h1>Login Page</h1>
+	<label for="user_email">Email id:</label>
+	<input id="user_email" type="Email" placeholder="Enter Email here" name="email_id" required style="margin: 0px; width:200px; height: 23px;"><br><br>
+	<label for="user_password">Password:</label>
+	<input id="user_password" type="Password" placeholder="Enter Password here" name="Password" required style="margin: 0px; width:200px; height: 23px;"><br>
+	<h2>Are you from India or Outside India ?</h2>
+	<label id="ins_india">Inside:</label>
+	<input type="radio" name="decision" value="inside">
+	<label id="out_india">Outside:</label>
+	<input type="radio" name="decision" value="outside">
+	<h2>How was your experience ?</h2>
+	<select name="stars">
+		<option value="Awesome">5</option>
+		<option value="Good">4</option>
+		<option value="Not Bad">3</option>
+		<option value="Bad">2</option>
+		<option value="Very Bad">1</option>
+	</select>
+	<p><input type="submit" name="submit"></p>
+</form>
+<label>Enter your Comment Here:</label>
+<textarea name="mytext" rows="8" cols="80" style="margin: 0px; width: 1266px; height: 178px;"></textarea>
+</body>
+<script type="text/javascript" src="trial.js"></script>
+</html>
